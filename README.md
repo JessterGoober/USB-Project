@@ -10,14 +10,14 @@ The Suspicious USB Checker is a simple security automation script designed to mo
 
 1. The script continuously monitors USB devices connected to the system.
 2. When a new USB device is detected, it collects:
-    a. Device ID
-    b. Device name
+    - Device ID
+    - Device name
 3. The device is compared against:
-    a. An approved device list (e.g., CAC reader)
-    b. An ignore list for internal or non-relevant devices
+    - An approved device list (e.g., CAC reader)
+    - An ignore list for internal or non-relevant devices
 4. The result is:
-    a. Printed to the terminal
-    b. Logged to a file for auditing purposes
+    - Printed to the terminal
+    - Logged to a file for auditing purposes
 
 ### Device Classification Logic
 - APPROVED:
