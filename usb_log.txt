@@ -1,4 +1,0 @@
-2025-12-13 15:43:55,601 - INFO - New USB detected - DeviceID: USB\VID_1532&PID_0270&MI_02\7&2E2BFC98&0&0002, Name: USB Input Device, Status: SUSPICIOUS
-2025-12-13 15:43:55,602 - INFO - New USB detected - DeviceID: USB\VID_0BDA&PID_0165\20070818000000000, Name: Microsoft Usbccid Smartcard Reader (WUDF), Status: APPROVED
-2025-12-13 15:43:55,602 - INFO - New USB detected - DeviceID: USB\VID_05AC&PID_12A8&MI_00\7&F87FF3A&0&0000, Name: Apple iPhone, Status: SUSPICIOUS
-2025-12-13 15:43:55,602 - INFO - New USB detected - DeviceID: USB\VID_1532&PID_0270&MI_00\7&2E2BFC98&0&0000, Name: USB Input Device, Status: SUSPICIOUS
