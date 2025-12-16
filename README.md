@@ -1,6 +1,6 @@
 ## Suspicious USB Checker
-Author: Jessica Soto
-Course: CYB333 Security Automation
+- Author: Jessica Soto
+- Course: CYB333 Security Automation
 
 #### Project Overview
 
