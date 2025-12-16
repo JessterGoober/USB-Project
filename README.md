@@ -1,4 +1,4 @@
-#### Suspicious USB Checker
+## Suspicious USB Checker
 Author: Jessica Soto
 Course: CYB333 Security Automation
 
@@ -6,7 +6,7 @@ Course: CYB333 Security Automation
 
 The Suspicious USB Checker is a simple security automation script designed to monitor a Windows system for newly connected USB devices. When a USB device is detected, the script automatically logs the device information and classifies it as either APPROVED or SUSPICIOUS based on a predefined allowlist. This automation helps demonstrate how removable media monitoring can reduce reliance on manual inspection and improve security awareness.
 
-#### How the Script Works
+## How the Script Works
 
 1. The script continuously monitors USB devices connected to the system.
 2. When a new USB device is detected, it collects:
@@ -19,7 +19,7 @@ The Suspicious USB Checker is a simple security automation script designed to mo
     a. Printed to the terminal
     b. Logged to a file for auditing purposes
 
-## Device Classification Logic
+### Device Classification Logic
 - APPROVED:
 Common Access Card (CAC) readers used for government authentication.
 
@@ -29,12 +29,12 @@ Personal devices such as mobile phones or unapproved USB input devices.
 - IGNORED:
 Internal system components such as root hubs, Bluetooth adapters, and the host laptop.
 
-## Requirements
+### Requirements
 - Windows 11 operating system
 - Python 3.13.5
 - PowerShell
 
-### How to Run
+## How to Run
 
 From the project directory, run:
 python usb_script.py
@@ -56,7 +56,7 @@ Each entry includes:
 - Device name
 - Classification status (APPROVED or SUSPICIOUS)
 
-# Example Log Output
+### Example Log Output
 - New USB detected - DeviceID: USB\VID_0BDA&PID_0165..., Name: Microsoft Usbccid Smartcard Reader (WUDF), Status: APPROVED
 - New USB detected - DeviceID: USB\VID_05AC&PID_12A8..., Name: Apple iPhone, Status: SUSPICIOUS
 
