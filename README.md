@@ -60,5 +60,7 @@ Each entry includes:
 - New USB detected - DeviceID: USB\VID_0BDA&PID_0165..., Name: Microsoft Usbccid Smartcard Reader (WUDF), Status: APPROVED
 - New USB detected - DeviceID: USB\VID_05AC&PID_12A8..., Name: Apple iPhone, Status: SUSPICIOUS
 
+## For security purposes, removed file "usb_log.txt". Will submit as a deliverable in final project submission.
+
 #### Security Relevance
 Unauthorized USB devices are a common attack vector for malware introduction and data exfiltration. Automating the detection and classification of USB devices improves endpoint security by enforcing removable media policies and providing an auditable record of device activity.
