@@ -31,7 +31,7 @@ Internal system components such as root hubs, Bluetooth adapters, and the host l
 
 ### Requirements
 - Windows 11 operating system
-- Python 3.13.5
+- Python 3.13.9
 - PowerShell
 
 ## How to Run
